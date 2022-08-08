@@ -483,7 +483,7 @@ directives. By default, this only recognizes C directives.")
       :nv "g@"    #'+evil:apply-macro
       :nv "gc"    #'evilnc-comment-operator
       :nv "gO"    #'imenu
-      :nv "gx"    #'evil-exchange
+      :nv "gx"  #'+lookup/file
       :nv "gy"    #'+evil:yank-unindented
       :n  "g="    #'evil-numbers/inc-at-pt
       :n  "g-"    #'evil-numbers/dec-at-pt
