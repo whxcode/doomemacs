@@ -451,7 +451,7 @@ directives. By default, this only recognizes C directives.")
        :m "]t"   #'hl-todo-next
        :m "[t"   #'hl-todo-previous)
       (:when (featurep! :ui workspaces)
-       :n "gt"   #'+workspace:switch-next
+       :n "gt"   #'tab-next
        :n "gT"   #'+workspace:switch-previous
        :n "]w"   #'+workspace/switch-right
        :n "[w"   #'+workspace/switch-left)
